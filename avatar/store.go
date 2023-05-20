@@ -19,7 +19,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	"github.com/go-pkgz/auth/token"
+	"github.com/go-enjin/github-com-go-pkgz-auth/token"
 )
 
 // imgSfx for avatars

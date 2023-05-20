@@ -9,11 +9,11 @@ import (
 
 	"github.com/go-pkgz/rest"
 
-	"github.com/go-pkgz/auth/avatar"
-	"github.com/go-pkgz/auth/logger"
-	"github.com/go-pkgz/auth/middleware"
-	"github.com/go-pkgz/auth/provider"
-	"github.com/go-pkgz/auth/token"
+	"github.com/go-enjin/github-com-go-pkgz-auth/avatar"
+	"github.com/go-enjin/github-com-go-pkgz-auth/logger"
+	"github.com/go-enjin/github-com-go-pkgz-auth/middleware"
+	"github.com/go-enjin/github-com-go-pkgz-auth/provider"
+	"github.com/go-enjin/github-com-go-pkgz-auth/token"
 )
 
 // Client is a type of auth client

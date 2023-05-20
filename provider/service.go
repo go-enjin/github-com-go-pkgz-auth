@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/go-pkgz/auth/token"
+	"github.com/go-enjin/github-com-go-pkgz-auth/token"
 )
 
 const (

@@ -19,8 +19,8 @@ import (
 	"github.com/nullrocks/identicon"
 	"golang.org/x/image/draw"
 
-	"github.com/go-pkgz/auth/logger"
-	"github.com/go-pkgz/auth/token"
+	"github.com/go-enjin/github-com-go-pkgz-auth/logger"
+	"github.com/go-enjin/github-com-go-pkgz-auth/token"
 )
 
 // Proxy provides http handler for avatars from avatar.Store

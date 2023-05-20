@@ -13,9 +13,9 @@ import (
 	"github.com/golang-jwt/jwt"
 	"github.com/microcosm-cc/bluemonday"
 
-	"github.com/go-pkgz/auth/avatar"
-	"github.com/go-pkgz/auth/logger"
-	"github.com/go-pkgz/auth/token"
+	"github.com/go-enjin/github-com-go-pkgz-auth/avatar"
+	"github.com/go-enjin/github-com-go-pkgz-auth/logger"
+	"github.com/go-enjin/github-com-go-pkgz-auth/token"
 )
 
 // VerifyHandler implements non-oauth2 provider authorizing users with some confirmation.

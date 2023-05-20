@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/go-pkgz/auth/avatar"
-	"github.com/go-pkgz/auth/logger"
-	"github.com/go-pkgz/auth/token"
+	"github.com/go-enjin/github-com-go-pkgz-auth/avatar"
+	"github.com/go-enjin/github-com-go-pkgz-auth/logger"
+	"github.com/go-enjin/github-com-go-pkgz-auth/token"
 )
 
 const (
@@ -292,7 +292,7 @@ var devUserFormTmpl = `
 	<body>
 		<form action="/login/oauth/authorize?{{.Query}}" method="post">
 			<header class="form-header">
-				<h1><a href="https://github.com/go-pkgz/auth">GO-PKGZ/AUTH</a></h1>
+				<h1><a href="https://github.com/go-enjin/github-com-go-pkgz-auth">GO-PKGZ/AUTH</a></h1>
 				<p>Dev Provider</p>
 			</header>
 			<label>

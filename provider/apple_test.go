@@ -24,8 +24,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/oauth2"
 
-	"github.com/go-pkgz/auth/logger"
-	"github.com/go-pkgz/auth/token"
+	"github.com/go-enjin/github-com-go-pkgz-auth/logger"
+	"github.com/go-enjin/github-com-go-pkgz-auth/token"
 )
 
 type customLoader struct{} // implement custom private key loader interface

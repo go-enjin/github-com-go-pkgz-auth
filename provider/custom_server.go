@@ -15,9 +15,9 @@ import (
 	"github.com/microcosm-cc/bluemonday"
 	"golang.org/x/oauth2"
 
-	"github.com/go-pkgz/auth/avatar"
-	"github.com/go-pkgz/auth/logger"
-	"github.com/go-pkgz/auth/token"
+	"github.com/go-enjin/github-com-go-pkgz-auth/avatar"
+	"github.com/go-enjin/github-com-go-pkgz-auth/logger"
+	"github.com/go-enjin/github-com-go-pkgz-auth/token"
 )
 
 // CustomHandlerOpt are options to initialize a handler for oauth2 server

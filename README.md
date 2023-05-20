@@ -1,5 +1,15 @@
-# auth - authentication via oauth2, direct and email
-[![Build Status](https://github.com/go-pkgz/auth/workflows/build/badge.svg)](https://github.com/go-pkgz/auth/actions) [![Coverage Status](https://coveralls.io/repos/github/go-pkgz/auth/badge.svg?branch=master)](https://coveralls.io/github/go-pkgz/auth?branch=master) [![godoc](https://godoc.org/github.com/go-pkgz/auth?status.svg)](https://pkg.go.dev/github.com/go-pkgz/auth?tab=doc)
+# (Go-Enjin fork) auth - authentication via oauth2, direct and email
+
+This repository is a fork of the original
+[go-pkgz/auth](https://github.com/go-pkgz/auth) package.
+
+Please do not use this version of the go-pkgz/auth package unless working with
+[Go-Enjin](https://go-enjin.org).
+
+Changes here are intended for eventual upstream inclusion (unless of course
+upstream does not want them).
+
+## Introduction
 
 This library provides "social login" with Github, Google, Facebook, Microsoft, Twitter, Yandex, Battle.net, Apple, Patreon and Telegram as well as custom auth providers and email verification.
 

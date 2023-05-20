@@ -25,11 +25,11 @@ import (
 	"github.com/golang-jwt/jwt"
 	"golang.org/x/oauth2"
 
-	"github.com/go-pkgz/auth"
-	"github.com/go-pkgz/auth/avatar"
-	"github.com/go-pkgz/auth/middleware"
-	"github.com/go-pkgz/auth/provider"
-	"github.com/go-pkgz/auth/token"
+	"github.com/go-enjin/github-com-go-pkgz-auth"
+	"github.com/go-enjin/github-com-go-pkgz-auth/avatar"
+	"github.com/go-enjin/github-com-go-pkgz-auth/middleware"
+	"github.com/go-enjin/github-com-go-pkgz-auth/provider"
+	"github.com/go-enjin/github-com-go-pkgz-auth/token"
 )
 
 func main() {

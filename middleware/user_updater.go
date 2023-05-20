@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/go-pkgz/auth/token"
+	"github.com/go-enjin/github-com-go-pkgz-auth/token"
 )
 
 // UserUpdater defines interface adding extras or modifying UserInfo in request context
