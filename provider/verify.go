@@ -95,8 +95,9 @@ func (e VerifyHandler) LoginHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	u := token.User{
-		Name: user,
-		ID:   e.ProviderName + "_" + token.HashID(sha1.New(), address),
+		Name:  user,
+		Email: email,
+		ID:    e.ProviderName + "_" + token.HashID(sha1.New(), address),
 	}
 	// try to get gravatar for email
 	if e.UseGravatar && email != "" { // TODO: better email check to avoid silly hits to gravatar api
