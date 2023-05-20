@@ -3,6 +3,7 @@ module github.com/go-enjin/github-com-go-pkgz-auth
 go 1.18
 
 require (
+	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/dghubble/oauth1 v0.7.2
 	github.com/go-oauth2/oauth2/v4 v4.5.2
 	github.com/go-pkgz/email v0.4.1

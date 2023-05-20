@@ -9,6 +9,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/asaskevich/govalidator"
 	"github.com/go-pkgz/rest"
 	"github.com/golang-jwt/jwt"
 	"github.com/microcosm-cc/bluemonday"
@@ -88,13 +89,18 @@ func (e VerifyHandler) LoginHandler(w http.ResponseWriter, r *http.Request) {
 	user, address := elems[0], elems[1]
 	sessOnly := r.URL.Query().Get("sess") == "1"
 
+	var email string
+	if govalidator.IsEmail(address) {
+		email = address
+	}
+
 	u := token.User{
 		Name: user,
 		ID:   e.ProviderName + "_" + token.HashID(sha1.New(), address),
 	}
 	// try to get gravatar for email
-	if e.UseGravatar && strings.Contains(address, "@") { // TODO: better email check to avoid silly hits to gravatar api
-		if picURL, e := avatar.GetGravatarURL(address); e == nil {
+	if e.UseGravatar && email != "" { // TODO: better email check to avoid silly hits to gravatar api
+		if picURL, e := avatar.GetGravatarURL(email); e == nil {
 			u.Picture = picURL
 		}
 	}
