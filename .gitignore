@@ -13,3 +13,6 @@
 .vscode
 *.cov
 Dockerfile
+
+# jetbrains IDE (goland, etc)
+/.idea
